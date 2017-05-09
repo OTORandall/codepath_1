@@ -6,44 +6,44 @@ Time spent: 6 hours spent in total
 
 The following **required** functionality is completed:
 
-1. [Y]  Required: Create a Users Table
-  * [Y]  Required: Use the command line to connect to the database "globitek".
-  * [Y]  Required: Define a table "users" with the required columns.
+1. [X]  Required: Create a Users Table
+  * [X]  Required: Use the command line to connect to the database "globitek".
+  * [X]  Required: Define a table "users" with the required columns.
 
-2. [Y]  Required: Create a Page with an HTML Form
-  * [Y]  Required: It has required text inputs.
-  * [Y]  Required: It submits to itself.
-  * [Y]  Required: It looks correct in a browser.
+2. [X]  Required: Create a Page with an HTML Form
+  * [X]  Required: It has required text inputs.
+  * [X]  Required: It submits to itself.
+  * [X]  Required: It looks correct in a browser.
   
-3. [Y]  Required: Detect when the form is submitted.
-  * [Y]  Required: When page loads, page displays the form.
-  * [Y]  Required: When form submits, page retrieves the form data.
+3. [X]  Required: Detect when the form is submitted.
+  * [X]  Required: When page loads, page displays the form.
+  * [X]  Required: When form submits, page retrieves the form data.
 
-4. [Y]  Required: Validate form data.
-  * [Y]  Required: Require the provided validation functions library.
-  * [Y]  Required: Validate the presence of all form values.
-  * [Y]  Required: Validate that no values are longer than 255 characters.
-  * [Y]  Required: Validate that first\_name and last\_name have at least 2 characters.
-  * [Y]  Required: Validate that username has at least 8 characters.
-  * [Y ]  Required: Validate that email contains a "@".
+4. [X]  Required: Validate form data.
+  * [X]  Required: Require the provided validation functions library.
+  * [X]  Required: Validate the presence of all form values.
+  * [X]  Required: Validate that no values are longer than 255 characters.
+  * [X]  Required: Validate that first\_name and last\_name have at least 2 characters.
+  * [X]  Required: Validate that username has at least 8 characters.
+  * [X]  Required: Validate that email contains a "@".
 
-5. [Y]  Required: Display form errors if any validations fail.
-  * [Y]  Required: Do not submit the data to the database.
-  * [Y]  Required: Redisplay the form with the submitted values filled in.
-  * [Y]  Required: Report all errors as a list above the form.
-  * [Y]  Required: Test each field to ensure you get the expected errors.
+5. [X]  Required: Display form errors if any validations fail.
+  * [X]  Required: Do not submit the data to the database.
+  * [X]  Required: Redisplay the form with the submitted values filled in.
+  * [X]  Required: Report all errors as a list above the form.
+  * [X]  Required: Test each field to ensure you get the expected errors.
 
-6. [ Y  Required: Submit successfully-validated form values to the database.
-  * [Y]  Required: Write an SQL insert statement.
-  * [Y]  Required: Add current date and time to "created\_at".
-  * [Y]  Required: Follow best practices regarding the query result and database connection.
-  * [Y]  Required: Use the command line to check the records.
+6. [X]  Required: Submit successfully-validated form values to the database.
+  * [X]  Required: Write an SQL insert statement.
+  * [X]  Required: Add current date and time to "created\_at".
+  * [X]  Required: Follow best practices regarding the query result and database connection.
+  * [X]  Required: Use the command line to check the records.
+  
+7. [X]  Required: Redirect the user to a confirmation page.
+    * [X]  Required: Locate the page "public/registration\_success.php".
+    * [X]  Required: Redirect the user to the new page. ([Tips](#!hints))
 
-7. [Y]  Required: Redirect the user to a confirmation page.
-    * [Y]  Required: Locate the page "public/registration\_success.php".
-    * [Y]  Required: Redirect the user to the new page. ([Tips](#!hints))
-
-8. [Y]  Required: Sanitize all dynamic output for HTML. ([Tips](#!hints))
+8. [X]  Required: Sanitize all dynamic output for HTML. ([Tips](#!hints))
 
 
 The following advanced user stories are optional:
